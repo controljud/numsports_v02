@@ -1,6 +1,6 @@
 <template>
 	<div>
-        <span>Sorvete</span>
+        <span>Admin</span>
 	</div>
 </template>
 
