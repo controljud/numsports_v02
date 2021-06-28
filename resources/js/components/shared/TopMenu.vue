@@ -1,8 +1,11 @@
 <template>
 	<div>
-        <ul>
-			<li><router-link to="/home" exact>Home</router-link></li>
-		</ul>
+		<b-nav align="center">
+			<b-nav-item active>#</b-nav-item>
+			<b-nav-item active>
+				<router-link to="/home" exact>Home</router-link>
+			</b-nav-item>
+		</b-nav>
 	</div>
 </template>
 
