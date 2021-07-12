@@ -16,3 +16,8 @@ use Illuminate\Support\Facades\Route;
 Route::any('{all}', function () {
     return view('app');
 })->where(['all' => '.*']);
+
+// Auth::routes();
+// Route::any('{all.admin}', function() {
+//     return view('admin');
+// })->where(['all.admin' => '/admin/*']);
